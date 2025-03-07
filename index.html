@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Réservation Padel</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Réservation Match de Padel</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Réservation de créneaux de Padel</h1>
-        <label for="date">Choisissez une date :</label>
-        <input type="date" id="date">
-        <div id="time-slots"></div>
-        <button id="save-button">Enregistrer</button>
-    </div>
-    <script src="script.js"></script>
+  <h1>Réservez votre créneau pour un match de Padel</h1>
+  
+  <label for="date">Choisir une date :</label>
+  <input type="date" id="date">
+  
+  <h3>Créneaux disponibles :</h3>
+  <div id="time-slots">
+    <!-- Les créneaux horaires seront générés ici -->
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
